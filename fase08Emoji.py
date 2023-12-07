@@ -1,3 +1,3 @@
-
 import emoji
-print("Olá !")
+
+print(emoji.emojize("Olá 🌎 !"))
