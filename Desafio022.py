@@ -1,5 +1,5 @@
 nome = str(input('Digite o seu nome completo: '))
-
+print('Analizando o seu nome...')
 print(nome.upper())
 print(nome.lower())
 
