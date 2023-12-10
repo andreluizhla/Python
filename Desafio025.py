@@ -1,3 +1,3 @@
-nome = str(input('Digite seu nome completo: '))
+nome = str(input('Digite seu nome completo: ')).strip()
 
-print('Você têm Silva no nome? {}'.format('Silva' in nome))
+print('Seu nome têm Silva? {}'.format('silva' in nome.lower()))
