@@ -1,12 +1,19 @@
 from random import randint
+from time import sleep
 
 numPens = randint(0, 5)
-print('Pensei em um número entre 0 e 5, vamos ver se você consegue adivinhar.')
 
-tent = int(input('Qual é o seu chute? '))
+print('--=' * 20)
+print('Pensei em um número entre 0 e 5. Tente adivinhar...')
+print('--=' * 20)
+
+tent = int(input('Em que número eu pensei? '))
+
+print('PROCESSANDO...')
+sleep(5)
 
 if tent == numPens:
-    print('O usuário ganhou!')
+    print('PARABÉNS! Você ganhou!')
 else: 
-    print('O Computador ganhou!')
-    print('O número escolhido foi: {}'.format(numPens))
+    print('Que Pena. Você Perdeu')
+    print('O número que eu pensei foi: {}'.format(numPens))
