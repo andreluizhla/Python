@@ -1,8 +1,8 @@
-a = int(input('Digite o valor do primeiro lado: '))
-b = int(input('Digite o valor do segundo lado: '))
-c = int(input('Digite o valor do terceiro lado: '))
+a = float(input('Digite o valor da primeira reta: '))
+b = float(input('Digite o valor da segunda reta: '))
+c = float(input('Digite o valor da terceira reta: '))
 
-if a < b + c or b < a + c or c < a + b:
-    print('Temos um triângulo')
+if a < b + c and b < a + c and c < a + b:
+    print('Conseguimos fazer um triângulo com essas retas')
 else:
-    print('Não temos um triângulo')
+    print('Não conseguimos fazer um triângulo com essas retas')
