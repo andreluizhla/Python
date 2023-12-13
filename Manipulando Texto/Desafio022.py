@@ -1,9 +1,11 @@
 nome = str(input('Digite o seu nome completo: '))
-print('Analizando o seu nome...')
-print(nome.upper())
-print(nome.lower())
+
+print('Analisando o seu nome...')
+
+print('Seu nome em MAIÚSCULAS fica: \033[4m{}\033[m'.format(nome.upper()))
+print('Seu nome em minúsculas fica: \033[4m{}\033[m'.format(nome.lower()))
 
 nome = nome.split()
-print('Seu nome completo tem {} letras'.format(len(''.join(nome))))
+print('Seu \033[4mnome completo\033[m tem \033[34m{} letras\033[m'.format(len(''.join(nome))))
 
-print('Seu primeiro nome tem {} letras'.format(nome[0], len(nome[0])))
+print('Seu \033[4mprimeiro\033[m nome tem \033[34m{} letras\033[m'.format(len(nome[0])))

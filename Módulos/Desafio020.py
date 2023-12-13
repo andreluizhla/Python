@@ -9,4 +9,4 @@ lista = [n1, n2, n3, n4]
 shuffle(lista)
 
 print("A ordem de apresentação é: ")
-print(lista)
+print('\033[4;33m{}\033[m'.format(lista))

@@ -13,7 +13,7 @@ print('PROCESSANDO...')
 sleep(5)
 
 if tent == numPens:
-    print('PARABÉNS! Você ganhou!')
+    print('\033[1;33mPARABÉNS!\033[m \033[4;32mVocê ganhou!\033[m')
 else: 
-    print('Que Pena. Você Perdeu')
-    print('O número que eu pensei foi: {}'.format(numPens))
+    print('Que Pena. \033[1;31mVocê Perdeu\033[m')
+    print('O número que eu pensei foi: \033[1;35m{}\033[m'.format(numPens))
