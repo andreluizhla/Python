@@ -1,6 +1,6 @@
-n1 = int(input('Digite um número: '))
-n2 = int(input('Digite outro número: '))
-n3 = int(input('Digite outro número: '))
+n1 = int(input('Digite o Primeiro número: '))
+n2 = int(input('Digite o Segundo número: '))
+n3 = int(input('Digite o Terceiro número: '))
 
 menor = n1
 if n2 < n1 and n2 < n3:
@@ -14,5 +14,5 @@ if n2 > n1 and n2 > n3:
 if n3 > n2 and n3 > n1:
     maior = n3
     
-print('O menor valor digitado foi {}'.format(menor))
-print('O maior valor digitado foi {}'.format(maior))
+print('O menor valor digitado foi \033[1;36m{}\033[m'.format(menor))
+print('O maior valor digitado foi \033[1;32m{}\033[m'.format(maior))
