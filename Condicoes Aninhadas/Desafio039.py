@@ -4,9 +4,13 @@ nascimento = int(input('Digite o ano que você nasceu: '))
 ano = date.today().year
 idade = ano - nascimento
 
+print('Quem nasceu em {} tem {} em {}'.format(nascimento, idade, ano))
+
 if idade < 18:
-    print('Você ainda vai se alistar no exercito')
+    print('Ainda falta {} anos para seu alistamento'.format(18 - idade))
+    print('Seu alistamento será em {}.'.format(nascimento + 18))
 elif idade == 18:
     print('Está na hora de se alistar para o exercito')
 else:
-    print('Já passou do tempo de alistamento')
+    print('Você deveria ter se alistado há {} anos.'.format(idade - 18))
+    print('Seu alistamento foi em {}'.format(nascimento + 18))
