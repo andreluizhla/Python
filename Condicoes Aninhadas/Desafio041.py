@@ -5,9 +5,9 @@ ano = date.today().year
 
 idade = ano - nascimento
 
-print('Você têm \033[4;33m{} anos\033[m de idade'.format(idade))
+print('Você têm \033[4;33m{} anos\033[m de idade em {}'.format(idade, ano))
 
-print('Então você se encaixa na categoria:')
+print('Então você se encaixa na categoria: ', end='')
 if idade <= 9:
     print('\033[34mMIRIM\033[m')
 elif idade <= 14:

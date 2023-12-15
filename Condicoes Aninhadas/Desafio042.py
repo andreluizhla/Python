@@ -15,9 +15,9 @@ if a < b + c and b < a + c and c < a + b:
     print('\033[4;32mConseguimos fazer um triângulo com essas retas\033[m')
     if a == b == c:
         print('E esse triângulo é \033[4;34mEquilátero\033[m, pois ele têm \033[4;32mTODOS os 3 lados iguais\033[m')
-    elif a == b or a == c or b == c:
-        print('E esse triângulo é \033[4;34mIsósceles\033[m, pois ele têm \033[4;33mApenas 2 lados iguais\033[m')
-    else:
+    elif a != b != c:
         print('E esse triângulo é \033[4;34mEscaleno\033[m, pois ele \033[4;31mNÃO têm lados iguais\033[m')
+    else:
+        print('E esse triângulo é \033[4;34mIsósceles\033[m, pois ele têm \033[4;33mApenas 2 lados iguais\033[m')
 else:
     print('\033[4;31mNão conseguimos fazer um triângulo com essas retas\033[m')
