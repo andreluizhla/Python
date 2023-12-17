@@ -1,6 +1,5 @@
 from random import choice
 from time import sleep
-
 cor = {
     'limpa': '\033[m',
     'ganhou': '\033[1;32m',
@@ -10,7 +9,6 @@ cor = {
     'amar': '\033[1;33m',
     'verde': '\033[1;32m'
 }
-
 print(cor['verde'] + '#' * 30)
 print('#   Pedra, Papel e Tesoura   #')
 print('#' * 30 + cor['limpa'])
@@ -21,19 +19,15 @@ print('''{}[ 0 ] PEDRA
 [ 2 ] TESOURA{}'''.format(cor['azul'], cor['limpa']))
 
 opcao = int(input('Escolha sabiamente a sua jogada: '))
-
 if opcao != 0 and opcao != 1 and opcao != 2:
     print('{}OPÇÃO INVÁLIDA. TENTE NOVAMENTE{}'.format(cor['perdeu'], cor['limpa']))
-
 else:
-
     if opcao == 0:
         jogador = 'Pedra'
     elif opcao == 1:
         jogador = 'Papel'
     else:
         jogador = 'Tesoura'
-
     escolhas = ['Pedra', 'Papel', 'Tesoura']
     computador = choice(escolhas)
 
