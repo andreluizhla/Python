@@ -7,46 +7,63 @@ cor = {
     'perdeu': '\033[1;31m',
     'empate': '\033[7;37m',
     'azul': '\033[1;34m',
-    'amarelo': '\033[1;33m'
+    'amar': '\033[1;33m',
+    'verde': '\033[1;32m'
 }
 
-print('\033[1;32m' + '#' * 30)
+print(cor['verde'] + '#' * 30)
 print('#   Pedra, Papel e Tesoura   #')
-print('#' * 30 + '\033[m')
+print('#' * 30 + cor['limpa'])
 
-print('Escolha {}Pedra, Papel ou Tesoura{} e veja se consegue ganhar de mim'.format(cor['amarelo'], cor['limpa']))
+print('Faça a sua {}escolha{} e veja se consegue ganhar de mim'.format(cor['amar'], cor['limpa']))
+print('''{}[ 0 ] PEDRA
+[ 1 ] PAPEL
+[ 2 ] TESOURA{}'''.format(cor['azul'], cor['limpa']))
 
-escolhas = ['pedra', 'papel', 'tesoura']
+opcao = int(input('Escolha sabiamente a sua jogada: '))
 
-jogador = str(input('Digite a sua Escolha: ')).lower().strip()
+if opcao != 0 and opcao != 1 and opcao != 2:
+    print('{}OPÇÃO INVÁLIDA. TENTE NOVAMENTE{}'.format(cor['perdeu'], cor['limpa']))
 
-computador = choice(escolhas)
+else:
 
-print('{}PROCESSANDO...{}'.format(cor['azul'], cor['limpa']))
-sleep(3)
+    if opcao == 0:
+        jogador = 'Pedra'
+    elif opcao == 1:
+        jogador = 'Papel'
+    else:
+        jogador = 'Tesoura'
 
-if jogador in escolhas:
+    escolhas = ['Pedra', 'Papel', 'Tesoura']
+    computador = choice(escolhas)
 
-    print('O {}Jogador{} escolheu o(a) {}{}{}'.format('\033[1;33m',  '\033[m', '\033[1;34m', jogador, '\033[m'), end='')
-    print(' e o {}Computador{} escolheu o(a) {}{}{}'.format('\033[1;33m', '\033[m', '\033[1;34m', computador, '\033[m'))
+    print('{}JO{}'.format(cor['verde'], cor['limpa']))
+    sleep(1)
+    print('{}KEN{}'.format(cor['verde'], cor['limpa']))
+    sleep(1)
+    print('{}PO{}!'.format(cor['verde'], cor['limpa']))
+    sleep(0.5)
+
+    print('-=-' * 15)
+    print('{}Jogador{} jogou {}{}{} '.format(cor['amar'], cor['limpa'], cor['azul'], jogador, cor['limpa']))
+    print('{}Computador{} jogou {}{}{}'.format(cor['amar'], cor['limpa'], cor['azul'], computador, cor['limpa']))
+    print('-=-' * 15)
 
     if jogador == computador:
         print('Parece que temos um {}EMPATE{}'.format(cor['empate'], cor['limpa']))
     else:
-        if jogador == 'tesoura':
-            if computador == 'papel':
+        if jogador == 'Tesoura':
+            if computador == 'Papel':
                 print('{}O Jogador GANHOU{}!'.format(cor['ganhou'], cor['limpa']))
-            elif computador == 'pedra':
+            elif computador == 'Pedra':
                 print('{}O Computador Ganhou{}'.format(cor['perdeu'], cor['limpa']))
-        elif jogador == 'pedra':
-            if computador == 'tesoura':
+        elif jogador == 'Pedra':
+            if computador == 'Tesoura':
                 print('{}O Jogador GANHOU{}!'.format(cor['ganhou'], cor['limpa']))
-            elif computador == 'papel':
+            elif computador == 'Papel':
                 print('{}O Computador Ganhou{}'.format(cor['perdeu'], cor['limpa']))
-        elif jogador == 'papel':
-            if computador == 'pedra':
+        elif jogador == 'Papel':
+            if computador == 'Pedra':
                 print('{}O Jogador GANHOU{}!'.format(cor['ganhou'], cor['limpa']))
-            elif computador == 'tesoura':
+            elif computador == 'Tesoura':
                 print('{}O Computador Ganhou{}'.format(cor['perdeu'], cor['limpa']))
-else:
-    print('Não consegui identificar se você escolheu Pedra, Papel ou Tesoura')
