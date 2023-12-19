@@ -5,18 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85b8339a-68e3-4910-b682-8ff7ce21b646" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estrutura de Repeticao for/Desafio051.py" beforeDir="false" afterPath="$PROJECT_DIR$/Estrutura de Repeticao for/Desafio051.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estrutura de Repeticao for/Desafio052.py" beforeDir="false" afterPath="$PROJECT_DIR$/Estrutura de Repeticao for/Desafio052.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estrutura de Repeticao for/Desafio053.py" beforeDir="false" afterPath="$PROJECT_DIR$/Estrutura de Repeticao for/Desafio053.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estrutura de Repeticao for/Desafio054.py" beforeDir="false" afterPath="$PROJECT_DIR$/Estrutura de Repeticao for/Desafio054.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estrutura de Repeticao for/Desafio055.py" beforeDir="false" afterPath="$PROJECT_DIR$/Estrutura de Repeticao for/Desafio055.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estrutura de Repeticao for/Desafio056.py" beforeDir="false" afterPath="$PROJECT_DIR$/Estrutura de Repeticao for/Desafio056.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estrutura de Repetiçao while/Desafio060.py" beforeDir="false" afterPath="$PROJECT_DIR$/Estrutura de Repetiçao while/Desafio060.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estrutura de Repetiçao while/Desafio063.py" beforeDir="false" afterPath="$PROJECT_DIR$/Estrutura de Repetiçao while/Desafio063.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estrutura de Repetiçao while/Desafio064.py" beforeDir="false" afterPath="$PROJECT_DIR$/Estrutura de Repetiçao while/Desafio064.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estrutura de Repetiçao while/Desafio065.py" beforeDir="false" afterPath="$PROJECT_DIR$/Estrutura de Repetiçao while/Desafio065.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +43,8 @@
     "Python.Desafio061.executor": "Run",
     "Python.Desafio062.executor": "Run",
     "Python.Desafio063.executor": "Run",
+    "Python.Desafio064.executor": "Run",
+    "Python.Desafio065.executor": "Run",
     "Python.aula14.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -64,7 +58,7 @@
       <recent name="C:\Users\CASA\Documents\Estudos\Python\Estrutura de Repetiçao while" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Desafio059">
+  <component name="RunManager" selected="Python.Desafio065">
     <configuration name="Desafio058" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="ENV_FILES" value="" />
@@ -109,50 +103,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Desafio061" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Estrutura de Repetiçao while" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Estrutura de Repetiçao while/Desafio061.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Desafio062" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Estrutura de Repetiçao while" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Estrutura de Repetiçao while/Desafio062.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Desafio063" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="ENV_FILES" value="" />
@@ -175,13 +125,57 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Desafio064" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Estrutura de Repetiçao while" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Estrutura de Repetiçao while/Desafio064.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Desafio065" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Estrutura de Repetiçao while" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Estrutura de Repetiçao while/Desafio065.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Desafio065" />
+        <item itemvalue="Python.Desafio064" />
+        <item itemvalue="Python.Desafio063" />
         <item itemvalue="Python.Desafio059" />
         <item itemvalue="Python.Desafio058" />
-        <item itemvalue="Python.Desafio063" />
-        <item itemvalue="Python.Desafio062" />
-        <item itemvalue="Python.Desafio061" />
       </list>
     </recent_temporary>
   </component>
