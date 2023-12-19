@@ -1,7 +1,7 @@
-termo = int(input('Digite o primeiro termo: '))
-r = int(input('Digita a razão: '))
+primeiro = int(input('Digite o primeiro termo: '))
+razao = int(input('Digita a razão: '))
+decimo = primeiro + (10 - 1) * razao
 print('Os 10 primeiros termos da PA é: (', end='')
-for c in range(1, 10):
+for termo in range(primeiro, decimo + razao, razao):
     print(termo, end=', ')
-    termo += r
-print(termo, end=')')
+print(end=')')
