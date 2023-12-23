@@ -1,3 +1,5 @@
+﻿from colorama import init
+init()
 n1 = float(input('Digite a sua Primeira nota: '))
 n2 = float(input('Digite a sua Segunda nota: '))
 media = (n1 + n2) / 2

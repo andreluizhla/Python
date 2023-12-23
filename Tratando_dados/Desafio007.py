@@ -1,3 +1,5 @@
+﻿from colorama import init
+init()
 n1 = float(input('Digite a sua primeira nota: '))
 n2 = float(input('Digite agora, a sua segunda nota: '))
 

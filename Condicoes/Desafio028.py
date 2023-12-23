@@ -1,5 +1,8 @@
-from random import randint
+﻿from random import randint
 from time import sleep
+from colorama import init
+init()
+
 
 numPens = randint(0, 5)
 

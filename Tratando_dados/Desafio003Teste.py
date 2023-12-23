@@ -1,3 +1,5 @@
+﻿from colorama import init
+init()
 cor = {
     'limpa' : '\033[m',
     'verde' : '\033[1;32m',

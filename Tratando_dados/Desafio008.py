@@ -1,3 +1,5 @@
+﻿from colorama import init
+init()
 m = float(input('Escreva uma distância em metros: '))
 
 print('{} metros equivale à: '.format(m))

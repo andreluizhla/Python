@@ -1,3 +1,5 @@
+from colorama import init
+init()
 entrada = input("Digite algo: ")
 
 print("Tipo do primitivo: \033[1;34m{}\033[m".format(type(entrada)))
@@ -7,4 +9,4 @@ print("É alfabético? \033[1;31m{}\033[m".format(entrada.isalpha()))
 print("É alfanumérico? \033[1;33m{}\033[m".format(entrada.isalnum()))
 print("Só tem maiúsculas? \033[1;32m{}\033[m".format(entrada.isupper()))
 print("Só tem minúsculas? \033[1;37m{}\033[m".format(entrada.islower()))
-print("Está capitalizada? \033[7m{}\033[m".format(entrada.istitle()))
+print("Está capitalizada? \033[7;30;47m{}\033[m".format(entrada.istitle()))

@@ -1,4 +1,6 @@
-from time import sleep
+﻿from time import sleep
+from colorama import init
+init()
 
 print('-=-' * 10)
 print('ANALISADOR DE TRIÂNGULOS')

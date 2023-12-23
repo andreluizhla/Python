@@ -1,3 +1,5 @@
+﻿from colorama import init
+init()
 frase = str(input('Digite uma frase: ')).upper().strip()
 
 print('Analisando a sua frase...')

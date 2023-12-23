@@ -1,4 +1,7 @@
 from random import choice
+from colorama import init
+init()
+
 
 priAluno = input("Digite o nome do Primeiro aluno: ")
 segAluno = input("Digite o nome do Segundo aluno: ")

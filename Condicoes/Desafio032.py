@@ -1,4 +1,7 @@
-from datetime import date
+﻿from datetime import date
+from colorama import init
+init()
+
 ano = int(input('Que ano quer analisar? Digite 0 para analisar o ano atual: '))
 
 if ano == 0:

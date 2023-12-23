@@ -1,3 +1,5 @@
+﻿from colorama import init
+init()
 km = float(input('Quantos Km foram rodados? '))
 d = int(input('Quantos dias alugados? '))
 

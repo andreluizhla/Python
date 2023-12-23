@@ -1,3 +1,5 @@
+﻿from colorama import init
+init()
 n1 = int(input('Digite o Primeiro número: '))
 n2 = int(input('Digite o Segundo número: '))
 n3 = int(input('Digite o Terceiro número: '))

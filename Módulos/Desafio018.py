@@ -1,4 +1,7 @@
-from math import radians, sin, tan, cos
+﻿from math import radians, sin, tan, cos
+from colorama import init
+init()
+
 
 ang = float(input('Digite o ângulo: '))
 seno = sin(radians(ang))

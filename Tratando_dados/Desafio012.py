@@ -1,3 +1,5 @@
+﻿from colorama import init
+init()
 p = float(input('Qual é o preço do produto? R$'))
 desconto = 5
 

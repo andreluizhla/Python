@@ -1,3 +1,5 @@
+﻿from colorama import init
+init()
 casa = float(input('Quanto é a casa? R$ '))
 salario = float(input('Quanto é o seu salário? R$ '))
 anos = int(input('Em quantos anos você vai pagar? '))

@@ -1,3 +1,5 @@
+﻿from colorama import init
+init()
 num = int(input('Digite um número: '))
 
 if num % 2 == 0:

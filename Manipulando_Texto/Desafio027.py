@@ -1,3 +1,5 @@
+﻿from colorama import init
+init()
 nome = str(input('Digite o seu nome Completo: '))
 
 nome = nome.split()

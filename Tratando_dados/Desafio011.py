@@ -1,3 +1,5 @@
+﻿from colorama import init
+init()
 alt = float(input('Altura da parede: '))
 lar = float(input('Largura da parede: '))
 area = alt * lar

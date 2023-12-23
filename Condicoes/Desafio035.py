@@ -1,3 +1,5 @@
+﻿from colorama import init
+init()
 a = float(input('Digite o valor da primeira reta: '))
 b = float(input('Digite o valor da segunda reta: '))
 c = float(input('Digite o valor da terceira reta: '))

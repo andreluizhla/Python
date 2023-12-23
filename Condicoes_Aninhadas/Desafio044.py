@@ -1,3 +1,6 @@
+from colorama import init
+init()
+
 preco = float(input('Digite o preço das compras: R$'))
 
 print('''Formas de Pagamento: 

@@ -1,3 +1,5 @@
+﻿from colorama import init
+init()
 salario = float(input('Qual é o salário do funcionário? R$'))
 
 if salario >= 1250:

@@ -1,4 +1,6 @@
+﻿from colorama import init
 from datetime import date
+init()
 
 nascimento = int(input('Digite o seu ano de nascimento: '))
 ano = date.today().year

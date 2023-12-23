@@ -1,4 +1,7 @@
-from math import hypot
+﻿from math import hypot
+from colorama import init
+init()
+
 co = int(input('Comprimento do cateto oposto: '))
 ca = int(input('Comprimento do cateto adjacente: '))
 hi = hypot(co, ca)

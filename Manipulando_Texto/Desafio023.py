@@ -1,3 +1,5 @@
+﻿from colorama import init
+init()
 texto = str(input('Digite um número de 0 até 9999: '))
 
 print('Analisando o número \033[4;36m{}\033[m'.format(texto))

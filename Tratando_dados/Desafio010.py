@@ -1,3 +1,5 @@
+﻿from colorama import init
+init()
 # Código feito em maio de 2023, e o dólar estava R$5,00
 
 dinheiro = float(input('Quanto Reais você tem? R$'))

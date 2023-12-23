@@ -1,4 +1,7 @@
-import pygame
+﻿import pygame
+from colorama import init
+init()
+
 
 pygame.init()
 pygame.mixer.music.load('Desafio021.mp3')

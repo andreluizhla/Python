@@ -1,3 +1,5 @@
+﻿from colorama import init
+init()
 distancia = float(input('Digite a distância da viagem em Km: '))
 
 print('Você está prestes a começar uma viagem de \033[1;33m{}Km\033[m'.format(distancia))

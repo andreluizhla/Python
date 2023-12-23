@@ -1,3 +1,9 @@
-from random import choice
-doces = ['Bis Oreo', 'Bala']
-print('O doce escolhido foi {}'.format(choice(doces)))
+n = s = 0
+while True:
+    n = int(input('Digite um número: '))
+    if n == 999:
+        break
+    s += n
+# print('A soma vale {}'.format(s))
+# FSTRING
+print(f'A soma vale {s}')

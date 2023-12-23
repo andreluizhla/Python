@@ -1,3 +1,5 @@
+﻿from colorama import init
+init()
 vel = float(input('Qual é a velocidade do carro? '))
 
 if vel > 80:

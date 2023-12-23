@@ -1,3 +1,5 @@
+﻿from colorama import init
+init()
 n = int(input('Digite um número para ver sua tabuada: '))
 
 print('A tabuada do número \033[1;32m{}\033[m, é:'.format(n))

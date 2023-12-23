@@ -1,5 +1,6 @@
+﻿from colorama import init
 from datetime import date
-
+init()
 nascimento = int(input('Digite o ano que você nasceu: '))
 ano = date.today().year
 idade = ano - nascimento

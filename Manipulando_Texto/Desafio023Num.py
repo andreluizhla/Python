@@ -1,3 +1,5 @@
+﻿from colorama import init
+init()
 num = int(input('Digite um número de 0 até 9999: '))
 
 u = num // 1 % 10

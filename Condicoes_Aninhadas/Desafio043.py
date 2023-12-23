@@ -1,3 +1,5 @@
+﻿from colorama import init
+init()
 print('IMC (Índice de Massa Corporal)')
 
 altura = float(input('Digite a sua altura em Metros: '))
