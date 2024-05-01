@@ -1,20 +1,21 @@
-num = list()
+listanum = list()
 for c in range(0, 5):
-    num.append(int(input(f'Digite um valor na posição {c}: ')))
+    listanum.append(int(input(f'Digite um valor na posição {c}: ')))
     if c == 0:
-        maior = menor = num[c]
+        maior = menor = listanum[c]
     else:
-        if maior < num[c]:
-            maior = num[c]
-        if menor > num[c]:
-            menor = num[c]
-print(f'Você digitou os valores {num}')
+        if maior < listanum[c]:
+            maior = listanum[c]
+        if menor > listanum[c]:
+            menor = listanum[c]
+print(f'Você digitou os valores {listanum}')
 print(f'O maior valor é {maior} e está nas posições: ', end='')
-for i, v in enumerate(num):
+# i = posicao, item = v
+for i, v in enumerate(listanum):
     if v == maior:
-        print(f'{num.index(max(num))}... ', end='')
+        print(f'{i}... ', end='')
 print(f'\nO menor valor é {menor} e está nas posições: ', end='')
-for i, v in enumerate(num):
+for i, v in enumerate(listanum):
     if v == menor:
-        print(f'{num.index(min(num))}... ', end='')
+        print(f'{i}... ', end='')
 print()

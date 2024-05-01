@@ -3,7 +3,6 @@ while True:
     num = int(input('Digite um número: '))
     if num in valores:
         print('Valor duplicado! Não vou adicionar...')
-        print(valores)
     else:
         valores.append(num)
         print('Número adicionado com sucesso...')
