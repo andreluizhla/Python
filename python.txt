@@ -1,4 +1,4 @@
-Python
+ï»¿Python
 
 Zen do Python --> import this
 
@@ -6,13 +6,13 @@ Prompt de Comando= python C:\Users\CASA\Documents\Estudos\Python\Tuplas\Desafio0
 
 print ( ) --> mostra no terminal o que tiver nos ( )
 
-Variáveis:
+VariÃ¡veis:
 algo = tipo primitivo
 
-Armazenando e mostrando valores que o usuário digita:
+Armazenando e mostrando valores que o usuÃ¡rio digita:
 nome = input ( "Digite o seu nome: " )
 
-print ( "É um prazer te conhecer, {}".format(nome))
+print ( "Ã‰ um prazer te conhecer, {}".format(nome))
 
 Tipos primitivos:
 
@@ -24,26 +24,26 @@ Tipos primitivos:
 
 True ou False = bool
 
-Operadores Aritméticos
+Operadores AritmÃ©ticos
 
-Adição +
-Subtração -
-Multiplicação *
-Divisão /
-Potência **
-Divisão Inteira //  = 5//2 == 2
-Resto da Divisão %  =  5 % 2 == 1
+AdiÃ§Ã£o +
+SubtraÃ§Ã£o -
+MultiplicaÃ§Ã£o *
+DivisÃ£o /
+PotÃªncia **
+DivisÃ£o Inteira //  = 5//2 == 2
+Resto da DivisÃ£o %  =  5 % 2 == 1
 
 Algo Recebe Algo =
 Igual = =
 
-Ordem de Precedência:
+Ordem de PrecedÃªncia:
 1. ( )
 2. **
 3. *, /, //, %
 4. +, -
 
-Módulos
+MÃ³dulos
 biblioteca doce = doce1, doce2, doce3, etc...
 
 import doce 
@@ -81,29 +81,29 @@ frase[:5] --> Andre
 frase[8:] --> alguem
 frase[6::2] --> eage
 frase[::2] --> Adeeage
-frase[-1] --> 'm' --> Último item [-1]
+frase[-1] --> 'm' --> Ãšltimo item [-1]
 
 
-Análise
+AnÃ¡lise
 
 len(frase) --> 14 caracteres
 frase.count('e') --> 3
 frase.count('e', {inicio} 0, {fim} 7) --> 2
-frase.find('dre') --> inicio na posição 2
+frase.find('dre') --> inicio na posiÃ§Ã£o 2
 frase.find('nao') --> -1
 'Andre' in frase --> True
 
 
-Trasformação
+TrasformaÃ§Ã£o
 
-frase.replace('alguem', 'Maisa') --> frase = 'Andre e Maisa' --> forma secundária, não afeta diretamente a string
+frase.replace('alguem', 'Maisa') --> frase = 'Andre e Maisa' --> forma secundÃ¡ria, nÃ£o afeta diretamente a string
 
 frase.upper() --> frase = ANDRE E ALGUEM
 frase.lower() --> frase = andre e alguem
-frase.capitalize() --> primeiro caractere se torna maiúsculo
+frase.capitalize() --> primeiro caractere se torna maiÃºsculo
 frase.title() --> Andre E Alguem
 
-_ = espaço
+_ = espaÃ§o
 frase = '___Andre Luiz__'
 frase.strip() --> Andre Luiz
 frase.rstrip() --> ___Andre Luiz
@@ -111,14 +111,14 @@ frase.lstrip() --> Andre Luiz__
 
 
 
-Divisão
+DivisÃ£o
 
 frase = 'Andre e alguem'
 
 frase.split()* --> frase = ['Andre', 'e', 'alguem']
 frase[0] [0] --> A
 
-Junção
+JunÃ§Ã£o
 
 frase = [Andre, e, alguem]
 
@@ -126,20 +126,20 @@ frase = [Andre, e, alguem]
 frase = 'Andre-e-alguem'
 
 
-print(" " " Olá
+print(" " " OlÃ¡
 Mundo
-!!!" " ") --> ele printa do jeito que está
+!!!" " ") --> ele printa do jeito que estÃ¡
 
 
-Condições
+CondiÃ§Ãµes
 
 Simples: 
-if condição:
+if condiÃ§Ã£o:
    bloco
 
 Composta: 
 
-if condição:
+if condiÃ§Ã£o:
    bloco True
 else:
    bloco False
@@ -148,7 +148,7 @@ or = ou (isso ou aquilo)
 and = e (isso e aquilo)
 
 
-Condição em 1 linha:
+CondiÃ§Ã£o em 1 linha:
 tempo = int(input('Quantos anos tem o seu carro?'))
 
 print('carro novo' if tempo<=3 else 'carro velho)
@@ -173,13 +173,13 @@ ANSI escape sequence
 \033[style; text; background m
 C:\Users\CASA\Desktop\CoresTerminalPython.jpeg
 
-dicionário:
+dicionÃ¡rio:
 cores = {
 	'limpa' : '\033[m',
 	'azul' : '\033[34m',
 	'invertido' : '\033[7;30m'
 	}
-print('Olá {}{}{}! É um prazer em te conhcer!'.format(cores['azul'], nome, cores['limpa']))
+print('OlÃ¡ {}{}{}! Ã‰ um prazer em te conhcer!'.format(cores['azul'], nome, cores['limpa']))
 
 
 
@@ -196,16 +196,16 @@ elif:
 else: (Opsional)
 
 
-print('André', end='')
+print('AndrÃ©', end='')
 print('Luiz')
 
-AndréLuiz
+AndrÃ©Luiz
 
 
-Laço de Repetição
+LaÃ§o de RepetiÃ§Ã£o
 
 variavel de controle
-for c in range(1, 10):  -->  laço c no intervalo (1, 10)
+for c in range(1, 10):  -->  laÃ§o c no intervalo (1, 10)
 
 range(1, 3) --> 1, 2
 range(1, 4) --> 1, 2, 3
@@ -214,12 +214,12 @@ range(0, 10, 2) --> 0, 2, 4, 6, 8
 range(0, 11, 2) --> 0, 2, 4, 6, 8, 10
 
 
-teste lógico
+teste lÃ³gico
 while True:
 	True
 
 Quando True repita
-senão saia do loop
+senÃ£o saia do loop
 
 Qual usar?
 	Sei o limite == True:
@@ -227,31 +227,31 @@ Qual usar?
 	else:
 		WHILE
 n = 0
-while True: --> NÃO FAZER ISSO SE NÃO TIVER UM 'BREAK' DENTRO DELE
+while True: --> NÃƒO FAZER ISSO SE NÃƒO TIVER UM 'BREAK' DENTRO DELE
     # Loop Infinito
-    n = int(input('Digite um número: '))
+    n = int(input('Digite um nÃºmero: '))
     if n == 999:
         break --> Quebra o loop
 
 FSTRING
-nome = 'José'
+nome = 'JosÃ©'
 idade = 33
 salario = 1232.4
 print(f 'O {nome} tem {idade} anos e ganha R${salario:.2f}')
 print(f 'O {nome:-^20}')
 :123
-1 = Tipo de espaço 
-2 = Centralização (< Esquerda, ^Centro, > Direita)
-3 = Quantos espaços
+1 = Tipo de espaÃ§o 
+2 = CentralizaÃ§Ã£o (< Esquerda, ^Centro, > Direita)
+3 = Quantos espaÃ§os
 
 
-Variáveis Compostas
+VariÃ¡veis Compostas
 
 Tuplas:
 lanche = ('Hamburguer', 'Suco', 'Pizza', 'Pudim')
 
-A partir do Python 3, os parenteses são Opcionais
-"As Tuplas são IMUTÁVEIS"
+A partir do Python 3, os parenteses sÃ£o Opcionais
+"As Tuplas sÃ£o IMUTÃVEIS"
 Fatiamentos funcionam nas Tuplas
 
 print(lanche)
@@ -283,12 +283,12 @@ Resultado =
 
 
 for posicao, comida in enumerate(lanche):
-    print(f'Vou comer {comida} na posição {posicao}')
+    print(f'Vou comer {comida} na posiÃ§Ã£o {posicao}')
 Resultado = 
-Vou comer Hamburguer na posição 0
-Vou comer Suco na posição 1
-Vou comer Pizza na posição 2
-Vou comer Pudim na posição 3
+Vou comer Hamburguer na posiÃ§Ã£o 0
+Vou comer Suco na posiÃ§Ã£o 1
+Vou comer Pizza na posiÃ§Ã£o 2
+Vou comer Pudim na posiÃ§Ã£o 3
 
 lanche = ('Hamburguer', 'Suco', 'Pizza', 'Pudim', 'Batata Frita', 'Refrigerante')
 print(sorted(lanche))
@@ -308,35 +308,35 @@ c.count(2) --> 2
 c.count(8) --> 1
 c.count(9) --> 0
 
-c.index(3) --> posição: 1
-c.index(2) --> posição: 2
+c.index(3) --> posiÃ§Ã£o: 1
+c.index(2) --> posiÃ§Ã£o: 2
 
 del(c)
 print(c)
-ERRO -->  variavel *c* não foi definida
-c.index(2 *item*, 3*a partir da posição*) --> posição: 4
+ERRO -->  variavel *c* nÃ£o foi definida
+c.index(2 *item*, 3*a partir da posiÃ§Ã£o*) --> posiÃ§Ã£o: 4
 
 
 Listas
 Podem Mudar
 lanche = ['Hamburguer', 'Suco', 'Pizza', 'Pudim']
-lanche[3] = 'Picolé'
-print(lanche) --> ['Hamburguer', 'Suco', 'Pizza', 'Picolé']
+lanche[3] = 'PicolÃ©'
+print(lanche) --> ['Hamburguer', 'Suco', 'Pizza', 'PicolÃ©']
 
 Criando elemtos nas listas
 lanche.append('Refri')
-lanche = ['Hamburguer', 'Suco', 'Pizza', 'Picolé', 'Refri']
+lanche = ['Hamburguer', 'Suco', 'Pizza', 'PicolÃ©', 'Refri']
 
 lanche.insert(0, 'Hot-Dog')
-lanche = ['Hot-Dog', 'Hamburguer', 'Suco', 'Pizza', 'Picolé', 'Refri']
+lanche = ['Hot-Dog', 'Hamburguer', 'Suco', 'Pizza', 'PicolÃ©', 'Refri']
 
 del lanche[3]
 lanche.pop(3)
 lanche.remove('Pizza')
-lanche = ['Hot-Dog', 'Hamburguer', 'Suco', 'Picolé', 'Refri']
+lanche = ['Hot-Dog', 'Hamburguer', 'Suco', 'PicolÃ©', 'Refri']
 
 lanche.pop()
-lanche = ['Hot-Dog', 'Hamburguer', 'Suco', 'Picolé']
+lanche = ['Hot-Dog', 'Hamburguer', 'Suco', 'PicolÃ©']
 
 if 'Pizza' in lanche:
     lanche.remove('Pizza')
@@ -355,7 +355,7 @@ Lista vazia:
 num = []
 num = list()
 
-Ligações:
+LigaÃ§Ãµes:
 a = [2, 4, 5, 6, 0]
 b = a
 b[2] = 8
@@ -379,3 +379,20 @@ Resultado:
 Lista A: [2, 4, 5, 6, 0]
 Lista B: [2, 4, 8, 6, 0]
 
+
+Listas [Parte 2]:
+
+dadosPessoa1 = ["Pedro", 25]
+dadosPessoa2 = ['Maria', 19]
+
+pessoas.append(dadosPessoa1[:])
+pessoas.append(dadosPessoa2[:])
+
+print(pessoas)
+-> [["Pedro", 25], ["Maria", 19]]
+    [  0    , 1 ],  [ 0   ,  1 ]
+   [      0      ,        1     ]
+
+print(pessoas[0][0]) -> "Pedro"
+print(pessoas[0][1]) -> 25
+print(pessoas[1][0]) -> "Maria"
