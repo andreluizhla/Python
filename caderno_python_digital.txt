@@ -1,8 +1,10 @@
-﻿Python
+﻿
+Python
 
 Zen do Python --> import this
 
-Prompt de Comando= python C:\Users\CASA\Documents\Estudos\Python\Tuplas\Desafio073.py
+Prompt de Comando= python 
+    Tuplas\Desafio073.py
 
 print ( ) --> mostra no terminal o que tiver nos ( )
 
